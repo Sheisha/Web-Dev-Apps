@@ -3,90 +3,77 @@
 
 <head>
   <meta charset="utf-8">
-  <title>🖤 Alexia's Personal Site</title> <!-- unicode - table-->
+  <title>Ivanof Alexia</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+<!-- writing google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Sacramento&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat+Alternates&family=Sacramento&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!--<img src="https://scontent.fotp1-1.fna.fbcdn.net/v/t39.30808-6/308016381_2150201428490207_3151456405835624931_n.jpg?stp=c0.87.526.526a_dst-jpg_p526x296&_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rJSGZn3-35YAX-TrASW&tn=LEZrhvFXimPePFJB&_nc_ht=scontent.fotp1-1.fna&oh=00_AfBvOBQ3200Qri-NqVPm17_OVXcO1lU1r2X9BK6rCFvCMw&oe=635F619B" alt="My picture"> -->
-    <!-- SAU <img src="Me.jpg" alt="Tot eu"> -->
-<table cellspacing="20">
-  <tr>
-    <td> <img src="images/Me2.png" alt="My profile picture"> </td>
-    <td>
-      <h1> Ivanof Alexia </h1>
-      <p> <em> Student in progress at
-        <strong>
-          <a href="https://fmi.univ-ovidius.ro/">  Ovidius University </a>
-        </strong>
-      </em> </p> <!-- emphasis => italics , strong => important -->
-      <p> Imi 🖤 cafeaua. Atata ajunge. </p>
-   </td>
-  </tr>
-</table>
+  <!-- content division element = div -->
+  <div class="top">
+    <img class="top-cloud"src="images/cloud.png" alt="Cloud">
+    <h1> I'm Alexia, </h1>
+    <!-- SPAN isn't a BLOCK DISPLAY element, like p (paragraph) -->
+    <!-- Inline elements: <span>, <img>, anchors <a> -->
+    <h2> a <span class="pro">pro</span>grammer. </h2>
+    <img class="bottom-cloud"src="images/cloud.png" alt="Cloud">
+    <img src="images/mountain.png" alt="Mountain">
+  </div>
+
+  <div class="middle">
+    <div class="profile">
+      <img src="images/Me2.png" alt="">
+      <h2>Hello.</h2>
+      <p class="desc">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    </div>
+
+    <hr>
+
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="chillies" src="images/chillies.png" alt="">
+        <h3>Lorem & Ipsum</h3>
+        <p class="skill-description">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      </div>
+
+      <div class="skill-row">
+        <img class="computer" src="images/computer.png" alt="">
+        <h3>Lorem Ipsum Dolor</h3>
+        <p class="skill-description2">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
 
 
-</hr>
 
-
-<!-- Unordered bullet list -->
-  <h3> Books and Teachings </h3>
-  <ul>
-    <li> Nu stiu ce ar trebui aici </li>
-    <li> Nici aici </li>
-    <li> Nu mai stiu ce scoala am terminat. Am sa ma opresc aici. </li>
-  </ul>
-
-<!-- Ordered bullet list -->
-  <a href="hobbies.html">My hobbies</a>
-  </br>
-  <a href="contact.html"> Contact me </a>
-
-<hr/>
-
-<!-- TABLE-->
-<h3> Work experience: </h3>
-
-<table cellspacing="10">
-  <thead> <!-- top row of a table -->
-    <tr>
-      <th> Date </th>
-      <th> Work </th>
-    </tr>
-  </thead>
-<!--  <tbody>   </tbody>
-      <tfoot>   </tfoot> -->
-  <tr>
-    <td> 2020-2023 -> </td>
-    <td> University student </td>
-  </tr>
-
-  <tr>
-    <td> 2023 ->  </td>
-    <td> Web Developer (hopefully) </td>
-  </tr>
-</table>
-
-<!-- TABLE WITH STARS -->
-<hr/>
-
-<h3> Skills: </h3>
-
-<table cellspacing="10" >
-
-  <tr>
-    <td> CSS </td>
-    <td> ⭐⭐⭐⭐ </td>
-    <td> HTML </td>
-    <td> ⭐⭐⭐⭐⭐ </td>
-  </tr>
-
-  <tr>
-    <td> Bootstrap </td>
-    <td> ⭐ </td>
-    <td> Java </td>
-    <td> ⭐⭐⭐⭐ </td>
-  </tr>
-</table>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p class="desc2">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:alexiaivanof@email.com">Contact Me</a>
+    </div>
+  </div>
+  <div class="bottom">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© Ivanof Alexia.</p>
+  </div>
+</body>
 
 </html>
